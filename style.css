@@ -1,0 +1,93 @@
+*,
+
+body{
+   
+   background-image: url(pozadina1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    box-sizing: border-box;
+   
+}
+a{
+    background: yellow;
+    z-index: 1000;
+    background-color: whitesmoke;
+    color: thistle;
+
+}
+
+
+
+ul{
+    
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    
+    float: left;
+    width: 300px;
+    height: 2rem;
+    
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.8;
+}
+
+ul li a {
+    text-decoration:none ;
+    color: rgb(87, 168, 33);
+    display: block;
+    
+
+}
+ul li a:hover{
+    color: purple;
+    background-color: skyblue;
+    color: rgb(177, 14, 14);
+   
+    
+}
+
+.pod-meni{
+   background-color: skyblue;
+   opacity: 0;
+   
+    
+}
+li.nav-lista:hover .pod-meni{
+    
+
+    transition: 500ms;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .nav-lista {
+    width: 20%;
+    height: 20%;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    .nav-lista {
+    width: 33%;
+    height: 33%;
+    
+    }
+    }
+    
+    @media screen and (max-width: 414px) {
+    .nav-lista {
+    width: 100%;
+    height: 50%;
+    
+    }
+    }
+    
+
